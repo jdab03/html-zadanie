@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- input type="text" -->
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname">
+        </form>
+
+    <!-- input type="radio"- odpowiedź JEDNOKROTNEGO WYBORU -->
+        <p>Jaki jest twój ulubiony język programowania?</p>
+        <form>
+            <input type="radio" id="html" name="favlanguage" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="favlanguage" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="favlanguage" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+        </form>
+
+    <!-- input type="chceckbox" odpowiedź WIELOKROTNEGO WYBORU-->
+        <p>Lista zakupów:</p>
+        <form>
+            <input type="checkbox" id="produkt1" name="produkt1" value="kozie mleko">
+            <label for="produkt1">kozie mleko dla mamy</label><br>
+            <input type="checkbox" id="produkt2" name="produkt2" value="krowie mleko">
+            <label for="produkt2">krowie mleko dla taty</label><br>
+            <input type="checkbox" id="produkt3" name="produkt3" value="owsiane mleko">
+            <label for="produkt3">owsiane mleko dla Kari</label><br>
+        </form>
+   
+        <!-- input type="submit" -->
+        <form action="/action_page.php">
+            <label for="fname">First name</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+</body>
+</html>
